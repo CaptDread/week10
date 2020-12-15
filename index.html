@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains or Beach</title>
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/css/funkyKong.css">
+</head>
+<body> 
+    <section class="formStuff">
+        <form>
+            <input type="button" id="mountains" value="⛰️">
+            <input type="button" id="beach" value="🏖️">
+        </form>
+    </section>
+    <section class="results">
+        <div class="resBar">
+            <img src="src/img/moutain.gif" alt="Come lets light a fire!">
+            <img src="src/img/beach.gif" alt="Sweet sweet sunshine">
+        </div>
+        <div class="resNum">
+            <p class="mn"><span class="mountNum"></span> =⛰️</p>
+            <p class="bn">🏖️ = <span class="beachNum"></span></p> 
+        </div>
+    </section>
+
+    
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="src/js/beachCamp.js"></script>
+</body>
+</html>
